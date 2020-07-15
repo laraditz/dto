@@ -1,0 +1,9 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+## [1.0.0] - 2020-07-15
+### Added
+- Initial commit.
+- Add DTO service provider and DTO class.
+- Add `make:dto` command.
