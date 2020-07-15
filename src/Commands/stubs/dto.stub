@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use Laraditz\DTO\DTO;
+
+class DummyClass extends DTO
+{
+    // write your attributes here
+}
