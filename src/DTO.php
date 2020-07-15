@@ -2,14 +2,11 @@
 
 namespace Laraditz\DTO;
 
-use Illuminate\Support\Str;
-use Illuminate\Support\Arr;
-
 class DTO
 {
     protected $attributes;
 
-    function __construct($args)
+    public function __construct($args)
     {
         $reflection = new \ReflectionClass(get_class($this));
 
