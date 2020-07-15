@@ -1,7 +1,7 @@
 # Data Transfer Object
 
 [![Latest Stable Version](https://poser.pugx.org/laraditz/dto/v/stable?format=flat-square)](https://packagist.org/packages/laraditz/dto)
-[![Total Downloads](https://img.shields.io/packagist/dt/laraditz/action?style=flat-square)](https://packagist.org/packages/laraditz/dto)
+[![Total Downloads](https://img.shields.io/packagist/dt/laraditz/dto?style=flat-square)](https://packagist.org/packages/laraditz/dto)
 [![License](https://poser.pugx.org/laraditz/dto/license?format=flat-square)](https://packagist.org/packages/laraditz/dto)
 [![StyleCI](https://github.styleci.io/repos/7548986/shield?style=square)](https://github.com/laraditz/dto)
 
@@ -49,7 +49,7 @@ Import the `Laraditz\DTO\DTO` class like usual.
 
 ## Usage
 
-You can use `php artisan make:dto <name>` to create your action. For example, `php artisan make:dto PostData`. By default you can find it in `App/DTO` folder. 
+You can use `php artisan make:dto <name>` to create your DTO. For example, `php artisan make:dto PostData`. By default you can find it in `App/DTO` folder. 
 
 Sample DTO file generated as below. For non-laravel usage, can simply follow below example as well. After that just add your attributes.
 
