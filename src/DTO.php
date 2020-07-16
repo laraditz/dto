@@ -11,12 +11,17 @@ class DTO
         $reflection = new \ReflectionClass(get_class($this));
 
         if ($reflection->getProperties()) {
+
             foreach ($reflection->getProperties() as $property) {
                 $prop_name = $property->getName();
 
                 if (isset($args[$prop_name])) {
                     $this->attributes[$prop_name] = $args[$prop_name];
                     $this->$prop_name = $args[$prop_name];
+                } else {
+                    if ($prop_name !== 'attributes') {
+                        $this->attributes[$prop_name] = $this->$prop_name;
+                    }
                 }
             }
         }
